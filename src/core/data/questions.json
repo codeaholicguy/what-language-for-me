@@ -1,0 +1,1234 @@
+{
+  "question_string": "Bạn muốn học code để làm gì?",
+  "code_children": false,
+  "image": null,
+  "item_keys": null,
+  "item_string": "",
+  "url_string": "",
+  "children": [
+    {
+      "item_string": "Làm lập trình viên chuyên nghiệp",
+      "question_string": "Bạn muốn trở thành kiểu lập trình viên nào?",
+      "code_children": false,
+      "image": "icon_jobAsDeveloper@2x.png",
+      "item_keys": null,
+      "url_string": "be-a-professional-developer",
+      "children": [
+        {
+          "item_string": "Game",
+          "question_string": "Bạn muốn tập trung vào mảng nào?",
+          "code_children": false,
+          "image": "icon_gameDeveloper@2x.png",
+          "item_keys": null,
+          "url_string": "game",
+          "children": [
+            {
+              "item_string": "Game di động",
+              "question_string": "Thể loại game di động gì?",
+              "code_children": false,
+              "image": "icon_mobileGame@2x.png",
+              "item_keys": null,
+              "url_string": "mobile-game",
+              "children": [
+                {
+                  "item_string": "2D",
+                  "question_string": "Bạn quan tâm tới điều gì nhất?",
+                  "code_children": false,
+                  "image": "icon_2D@2x.png",
+                  "item_keys": null,
+                  "url_string": "2D",
+                  "children": [
+                    {
+                      "item_string": "Cộng đồng và hỗ trợ",
+                      "question_string": "C#",
+                      "code_children": false,
+                      "image": "icon_support@2x.png",
+                      "item_keys": [
+                        "c-sharp"
+                      ],
+                      "url_string": "community-size-support",
+                      "children": [],
+                      "reason": "C# là một ngôn ngữ lập trình được khuyên dùng khi làm game với engine Unity, engine phổ biến nhất với 45% thị phần. Cộng đồng lập trình viên Unity rất đông và hung hãn, sẵn sàng trợ giúp cho bạn."
+                    },
+                    {
+                      "item_string": "Tốc độ",
+                      "question_string": "C++",
+                      "code_children": false,
+                      "image": "icon_performance@2x.png",
+                      "item_keys": [
+                        "c-plus-plus"
+                      ],
+                      "url_string": "performance",
+                      "reason": "C++ là một ngữ vô cùng mạnh mẽ. C++ cho phép bạn làm việc trực tiếp với tài nguyên phần cứng nên có tốc độ rất nhanh. Nhờ tốc độ của nó, C++ thường được dùng để lập trình game engine, game, ứng dụng. Rất nhiều game di động nổi tiếng được viết bằng Cocos2Dx framework của C++.",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "item_string": "3D",
+                  "question_string": "Bạn quan tâm tới điều gì nhất?",
+                  "code_children": false,
+                  "image": "icon_3D@2x.png",
+                  "item_keys": null,
+                  "url_string": "3D",
+                  "children": [
+                    {
+                      "item_string": "Dễ học",
+                      "question_string": "C#",
+                      "code_children": false,
+                      "image": "icon_easeOfLearning@2x.png",
+                      "item_keys": [
+                        "c-sharp"
+                      ],
+                      "url_string": "ease-of-learning",
+                      "children": [],
+                      "reason": "C# là một ngôn ngữ lập trình được khuyên dùng khi làm game với engine Unity, engine phổ biến nhất với 45% thị phần. Cộng đồng lập trình viên Unity rất đông và hung hãn, sẵn sàng trợ giúp cho bạn."
+                    },
+                    {
+                      "item_string": "Đồ họa khủng",
+                      "question_string": "C++",
+                      "code_children": false,
+                      "image": "icon_awesomeGraphic@2x.png",
+                      "item_keys": [
+                        "c-plus-plus"
+                      ],
+                      "url_string": "beautiful-graphics",
+                      "children": [],
+                      "reason": "C++ là một ngữ vô cùng mạnh mẽ. C++ cho phép bạn làm việc trực tiếp với tài nguyên phần cứng nên có tốc độ rất nhanh. Nhờ tốc độ của nó, C++ thường được dùng để lập trình game engine, game, ứng dụng. Rất nhiều game bom tấn được viết bằng Unity Engine của C++."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "item_string": "Game PC hoặc Console",
+              "question_string": "Thể loại game gì?",
+              "code_children": false,
+              "image": "icon_consoleGame@2x.png",
+              "item_keys": null,
+              "url_string": "pc-console-game",
+              "children": [
+                {
+                  "item_string": "Game Indie",
+                  "question_string": "C#",
+                  "code_children": false,
+                  "image": "icon_indieGame@2x.png",
+                  "item_keys": [
+                    "c-sharp"
+                  ],
+                  "url_string": "indie-games",
+                  "children": [],
+                  "reason": "C# là một ngôn ngữ lập trình được khuyên dùng khi làm game với engine Unity, engine phổ biến nhất với 45% thị phần. Cộng đồng lập trình viên Unity rất đông và hung hãn, sẵn sàng trợ giúp cho bạn."
+                },
+                {
+                  "item_string": "Game bom tấn",
+                  "question_string": "C++",
+                  "code_children": false,
+                  "image": "icon_AAAtitleGame@2x.png",
+                  "item_keys": [
+                    "c-plus-plus"
+                  ],
+                  "url_string": "aaa-title-games",
+                  "children": [],
+                  "reason": "C++ là một ngữ vô cùng mạnh mẽ. C++ cho phép bạn làm việc trực tiếp với tài nguyên phần cứng nên có tốc độ rất nhanh. Nhờ tốc độ của nó, C++ thường được dùng để lập trình game engine, game, ứng dụng. Rất nhiều game bom tấn được viết bằng game engine Unity của C++."
+                },
+                {
+                  "item_string": "Chả biết, thích làm game thôi",
+                  "question_string": "Bạn quan tâm tới cái gì nhất?",
+                  "code_children": false,
+                  "image": "icon_justWantToMakeGames@2x.png",
+                  "item_keys": null,
+                  "url_string": "i-just-want-to-make-games",
+                  "children": [
+                    {
+                      "item_string": "Dễ học",
+                      "question_string": "C#",
+                      "code_children": false,
+                      "image": "icon_easeOfLearning@2x.png",
+                      "item_keys": [
+                        "c-sharp"
+                      ],
+                      "url_string": "ease-of-learning",
+                      "children": [],
+                      "reason": "C# là một ngôn ngữ lập trình được khuyên dùng khi làm game với engine Unity, engine phổ biến nhất với 45% thị phần. Cộng đồng lập trình viên Unity rất đông và hung hãn, sẵn sàng trợ giúp cho bạn."
+                    },
+                    {
+                      "item_string": "Đồ họa khủng",
+                      "question_string": "C++",
+                      "code_children": false,
+                      "image": "icon_awesomeGraphic@2x.png",
+                      "item_keys": [
+                        "c-plus-plus"
+                      ],
+                      "url_string": "beautiful-graphics",
+                      "children": [],
+                      "reason": "C++ là một ngữ vô cùng mạnh mẽ. C++ cho phép bạn làm việc trực tiếp với tài nguyên phần cứng nên có tốc độ rất nhanh. Nhờ tốc độ của nó, C++ thường được dùng để lập trình game engine, game, ứng dụng. Rất nhiều game bom tấn được viết bằng game engine Unity của C++."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_string": "Web",
+          "question_string": "Bạn thấy cái nào thú vị hơn?",
+          "code_children": false,
+          "image": "icon_webDeveloper@2x.png",
+          "item_keys": null,
+          "url_string": "web",
+          "children": [
+            {
+              "item_string": "UX: Cách người dùng tương tác với trang web",
+              "question_string": "1.HTML 2.CSS 3.JavaScript",
+              "code_children": false,
+              "image": "icon_UX@2x.png",
+              "item_keys": [
+                "html5",
+                "javascript"
+              ],
+              "url_string": "ux-how-to-interact-with-things",
+              "children": [],
+              "reason": "JavaScript là một ngôn ngữ bắt buộc phải học khi lập trình Web. Nó dược dùng để tạo các trạng Web động. JavaScript có thể chạy trên mọi trình duyệt."
+            },
+            {
+              "item_string": "Logic: Cách mọi thứ hoạt động",
+              "question_string": "Bạn muốn làm việc cho công ty thế nào?",
+              "code_children": false,
+              "image": "icon_logic@2x.png",
+              "item_keys": null,
+              "url_string": "logic-how-things-work",
+              "children": [
+                {
+                  "item_string": "Công ty nhỏ/Freelance",
+                  "question_string": "PHP",
+                  "code_children": false,
+                  "image": "icon_smallBusiness@2x.png",
+                  "item_keys": [
+                    "php"
+                  ],
+                  "url_string": "small-business-freelance",
+                  "children": [],
+                  "reason": "PHP được sử dụng rộng rãi để làm Web với sự hỗ trợ của Wordpress, Joomla và 1 số CMS khác. 80% của 10 triệu trang web lớn nhất sử dụng PHP, trong đó có Facebook và Wikipedia."
+                },
+                {
+                  "item_string": "Công ty startup",
+                  "question_string": "Ba cái phía dưới thích cái nào?",
+                  "code_children": true,
+                  "image": "icon_startup@2x.png",
+                  "item_keys": null,
+                  "url_string": "startups",
+                  "children": [
+                    {
+                      "item_string": "Python Code",
+                      "question_string": "Python",
+                      "code_children": false,
+                      "image": "img_code_python@2x.png",
+                      "item_keys": [
+                        "python"
+                      ],
+                      "url_string": "python",
+                      "children": [],
+                      "reason": "Python rất dễ học, cho phép bạn nhanh chóng xây dựng prototype và ứng dụng. Một số trang web nổi tiếng được viết bằng Python là Google, Reddit, Dropbox, Netflix, Paypal, Spotifiy,..."
+                    },
+                    {
+                      "item_string": "Ruby Code",
+                      "question_string": "Ruby",
+                      "code_children": false,
+                      "image": "img_code_Ruby@2x.png",
+                      "item_keys": [
+                        "ruby"
+                      ],
+                      "url_string": "ruby",
+                      "children": [],
+                      "reason": "Ruby on Rails là một\nframework nổi tiếng, được nhiều startup sử dụng. Các developer cũng thích nó và thấy nó dễ làm việc. Ngôn ngữ Ruby cho phép bạn xây dựng chức năng, giải quyết vấn đề một cách uyển chuyển so với các ngôn ngữ khác. Ruby Developer có mức lương trung bình cao thứ 2 trong Angel List."
+                    },
+                    {
+                      "item_string": "JavaScript Code",
+                      "question_string": "JavaScript",
+                      "code_children": false,
+                      "image": "img_code_JavaScript@2x.png",
+                      "item_keys": [
+                        "javascript"
+                      ],
+                      "url_string": "javascript",
+                      "children": [],
+                      "reason": "JavaScript hầu như được sử dụng ở front-end để làm giao diện linh hoạt. Tuy nhiên, với Node.js, bạn có thể dùng nó để viết back-end, tập trung vào các hệ thống hoạt động. Nếu muốn lập trình Web thì bắt buộc bạn phải biết JavaScript, ngôn ngữ này cũng khá dễ học."
+                    }
+                  ]
+                },
+                {
+                  "item_string": "Công ty lớn",
+                  "question_string": "Bạn quan tâm đến điều gì?",
+                  "code_children": false,
+                  "image": "icon_traditionalEnterprise@2x.png",
+                  "item_keys": null,
+                  "url_string": "traditional-enterprise",
+                  "children": [
+                    {
+                      "item_string": "Cơ hội nghề nghiệp",
+                      "question_string": "Java",
+                      "code_children": false,
+                      "image": "icon_jobOpportunity@2x.png",
+                      "item_keys": [
+                        "java"
+                      ],
+                      "url_string": "job-opportunities",
+                      "children": [],
+                      "reason": "Java là một ngôn ngữ nổi tiếng được các doanh nghiệp ưa thích, 90% các công ty trong danh sách Fortune 500 dùng nó. Khi các công ty start-up cần mở rộng hay tăng tốc độ chương trình, họ thường dùng Java. Các lập trình viên Java luôn được săn đón, và cộng đồng này ngày càng lớn mạnh."
+                    },
+                    {
+                      "item_string": "Tùy vào ngôn ngữ",
+                      "question_string": "Hai cái phía dưới thích cái nào?",
+                      "code_children": true,
+                      "image": "icon_likningLanguage@2x.png",
+                      "item_keys": null,
+                      "url_string": "liking-the-language",
+                      "children": [
+                        {
+                          "item_string": "Java Code",
+                          "question_string": "Java",
+                          "code_children": false,
+                          "image": "img_code_Java@2x.png",
+                          "item_keys": [
+                            "java"
+                          ],
+                          "url_string": "java",
+                          "children": [],
+                          "reason": "Java là một ngôn ngữ nổi tiếng được các doanh nghiệp ưa thích, 90% các công ty trong danh sách Fortune 500 dùng nó. Khi các công ty start-up cần mở rộng hay tăng tốc độ chương trình, họ thường dùng Java. Các lập trình viên Java luôn được săn đón, và cộng đồng này ngày càng lớn mạnh."
+                        },
+                        {
+                          "item_string": "C# Code",
+                          "question_string": "C#",
+                          "code_children": false,
+                          "image": "img_code_C_sharp@2x.png",
+                          "item_keys": [
+                            "c-sharp"
+                          ],
+                          "url_string": "c-sharp",
+                          "children": [],
+                          "reason": "Các công ty lớn thường thích chơi với Microsoft. 16% trong số top 100 triệu trang web lớn nhất dùng công nghệ ASP.NET, rất nhiều viết bằng C#. Do vậy, bạn cũng có thể lập trình back-end cho các doanh nghiệp."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "item_string": "Sao cũng được",
+                  "question_string": "Ba cái phía dưới thích cái nào?",
+                  "code_children": true,
+                  "image": "icon_noPreference@2x.png",
+                  "item_keys": null,
+                  "url_string": "no-preference",
+                  "children": [
+                    {
+                      "item_string": "Python Code",
+                      "question_string": "Python",
+                      "code_children": false,
+                      "image": "img_code_python@2x.png",
+                      "item_keys": [
+                        "python"
+                      ],
+                      "url_string": "python",
+                      "children": [],
+                      "reason": "Python rất dễ học, cho phép bạn nhanh chóng xây dựng prototype và ứng dụng. Một số trang web nổi tiếng được viết bằng Python là Google, Reddit, Dropbox, Netflix, Paypal, Spotifiy,..."
+                    },
+                    {
+                      "item_string": "Ruby Code",
+                      "question_string": "Ruby",
+                      "code_children": false,
+                      "image": "img_code_Ruby@2x.png",
+                      "item_keys": [
+                        "ruby"
+                      ],
+                      "url_string": "ruby",
+                      "children": [],
+                      "reason": "Ruby on Rails là một framework nổi tiếng, được nhiều startup sử dụng. Các developer cũng thích nó và thấy nó dễ làm việc. Ngôn ngữ Ruby cho phép bạn xây dựng chức năng, giải quyết vấn đề một cách uyển chuyển so với các ngôn ngữ khác. Ruby Developer có mức lương trung bình cao thứ 2 trong Angel List."
+                    },
+                    {
+                      "item_string": "Java",
+                      "question_string": "Java",
+                      "code_children": false,
+                      "image": "img_code_Java@2x.png",
+                      "item_keys": [
+                        "java"
+                      ],
+                      "url_string": "java",
+                      "children": [],
+                      "reason": "90% các công ty trong danh sách Fortune 500 sử dụng Java. Các đại gia công nghệ như Google và Amazon cũng dùng nó để phát triển backend của hệ thống. Các công ty dùng Java vì nó có performance tốt, dễ mở rộng. Do vậy, biết Java sẽ mở ra nhiều cánh cửa nghề nghiệp vào các công ty lớn."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_string": "Mobile",
+          "question_string": "Bạn muốn tập trung vào hệ điều hành nào?",
+          "code_children": false,
+          "image": "icon_mobileDeveloper@2x.png",
+          "item_keys": null,
+          "url_string": "mobile",
+          "children": [
+            {
+              "item_string": "iOS",
+              "question_string": "Swift",
+              "code_children": false,
+              "image": "icon_iOSApp@2x.png",
+              "item_keys": [
+                "swift"
+              ],
+              "url_string": "ios",
+              "children": [],
+              "reason": "Nếu muốn phát triển ứng dụng iOS hoặc ứng dụng Mac, bạn phải học Swift. Lập trình game với Swift cũng rất dễ với SpriteKit."
+            },
+            {
+              "item_string": "Android",
+              "question_string": "Java",
+              "code_children": false,
+              "image": "icon_androidApp@2x.png",
+              "item_keys": [
+                "java"
+              ],
+              "url_string": "android",
+              "children": [],
+              "reason": "Nếu muốn lập trình ứng dụng Android, hãy chọn Java. Java là một ngôn ngữ đa chức năng, khá đơn giản, dễ sử dụng và mở rộng. Cộng đồng Java cũng khá đông và hung hãn, sẵn sàng giúp đỡ bạn."
+            },
+            {
+              "item_string": "Windows",
+              "question_string": "C#",
+              "code_children": false,
+              "image": "icon_windowsApp@2x.png",
+              "item_keys": [
+                "c-sharp"
+              ],
+              "url_string": "windows",
+              "children": [],
+              "reason": "C# là một ngôn ngữ đa chức năng được phát triển bởi Microsoft, dùng để phát triển ứng dụng Windows. Các lập trình viên C# yêu thích nó vì nó rất dễ sử dụng, thiết kế tốt. Nếu muốn viết ứng dụng cho Microsoft, đương nhiên phải học C#."
+            }
+          ]
+        },
+        {
+          "item_string": "Phần mềm máy tính",
+          "question_string": "Hệ điều hành nào?",
+          "code_children": false,
+          "image": "icon_desktopSoftwareDeveloper@2x.png",
+          "item_keys": null,
+          "url_string": "desktop-software",
+          "children": [
+            {
+              "item_string": "Windows",
+              "question_string": "C#",
+              "code_children": false,
+              "image": "icon_windowsSoftware@2x.png",
+              "item_keys": [
+                "c-sharp"
+              ],
+              "url_string": "windows",
+              "children": [],
+              "reason": "C# là một ngôn ngữ đa chức năng được phát triển bởi Microsoft, dùng để phát triển ứng dụng Windows. Các lập trình viên C# yêu thích nó vì nó rất dễ sử dụng, thiết kế tốt. Nếu muốn viết ứng dụng cho Microsoft, đương nhiên phải học C#."
+            },
+            {
+              "item_string": "Mac",
+              "question_string": "Swift/Obj-C",
+              "code_children": false,
+              "image": "icon_macSoftware@2x.png",
+              "item_keys": [
+                "swift"
+              ],
+              "url_string": "mac",
+              "children": [],
+              "reason": "Nếu muốn phát triển ứng dụng iOS hoặc ứng dụng Mac, bạn phải học Swift."
+            },
+            {
+              "item_string": "Cross-Platform (Đa hệ điều hành)",
+              "question_string": "Java",
+              "code_children": false,
+              "image": "icon_bothSoftware@2x.png",
+              "item_keys": [
+                "java"
+              ],
+              "url_string": "cross-platform",
+              "children": [],
+              "reason": "Java là môt ngôn ngữ mạnh mẽ và đáng tin cậy. Vì lý do đó, 90% các công ty thuộc danh sách Fortune 500 như Amazon dùng Java. Nếu muốn viết ứng dụng doanh nghiệp trên nhiều hệ điều hành, Java là ngôn ngữ tốt nhất nên học."
+            }
+          ]
+        },
+        {
+          "item_string": "Data Scientist",
+          "question_string": "Bạn thấy thích cái nào hơn?",
+          "code_children": false,
+          "image": "icon_dataScientist@2x.png",
+          "item_keys": null,
+          "url_string": "data-scientist",
+          "children": [
+            {
+              "item_string": "Công tác thống kê",
+              "question_string": "R",
+              "code_children": false,
+              "image": "icon_statisticalFunctionality@2x.png",
+              "item_keys": [
+                "r"
+              ],
+              "url_string": "statistical-tasks",
+              "children": [],
+              "reason": "Ngôn ngữ R được thiết kế bởi các chuyên gia thống kê để tính toán, nó được sinh ra để làm tính thống kê và xác xuất. Khi công nghệ càng phát triển, dữ liệu các công ty thu thập ngày càng nhiều và phức tạp, nhiều công ty đã chọn R làm ngôn ngữ để phân tích dữ liệu."
+            },
+            {
+              "item_string": "Dễ học",
+              "question_string": "Python",
+              "code_children": false,
+              "image": "icon_easeOfLearning@2x.png",
+              "item_keys": [
+                "python"
+              ],
+              "url_string": "ease-of-learning",
+              "children": [],
+              "reason": "Với những bạn thích nghiên cứu và phân tích big data, Python là một ngôn ngữ mạnh mẽ, rất đáng học. Python có một cộng đồng hoạt động tích cực, hay cập nhật phiên bản mới. Theo Google Trends, ngày càng có nhiều người học Python."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_string": "Mở công ty start-up",
+      "question_string": "Công ty của bạn tập trung vào mảng nào?",
+      "code_children": false,
+      "image": "icon_toRunAStartup@2x.png",
+      "item_keys": null,
+      "url_string": "run-a-startup",
+      "children": [
+        {
+          "item_string": "Web",
+          "question_string": "Sản phẩm chính của bạn là gì?",
+          "code_children": false,
+          "image": "icon_website.png",
+          "item_keys": null,
+          "url_string": "web",
+          "children": [
+            {
+              "item_string": "Thương mại điện tử",
+              "question_string": "1.PHP 2.HTML 3.CSS",
+              "code_children": false,
+              "image": "icon_eCommerce@2x.png",
+              "item_keys": [
+                "php"
+              ],
+              "url_string": "e-commerce",
+              "children": [],
+              "reason": "Rất nhiều doanh nghiệp vừa và nhỏ sử dụng các CMS như Wordpress để tạo website một cách nhanh chóng. Dùng Wordpress đòi hỏi một số kiến thức về PHP, khiến PHP trở nên nổi tiếng. Nếu bạn muốn tạo một trang Web thương mai điện tử, PHP là cách nhanh chóng và dễ dàng nhất."
+            },
+            {
+              "item_string": "Cung cấp Dịch vụ (Platform as a Service)",
+              "question_string": "Java",
+              "code_children": false,
+              "image": "icon_platformAsAService@2x.png",
+              "item_keys": [
+                "java"
+              ],
+              "url_string": "platform-as-a-service",
+              "children": [],
+              "reason": "Java là một ngôn ngữ nổi tiếng được các doanh nghiệp ưa thích, 90% các công ty trong danh sách Fortune 500 dùng nó. Khi các công ty start-up cần mở rộng hay tăng tốc độ chương trình, họ thường dùng Java. Các lập trình viên Java luôn được săn đón, và cộng đồng này ngày càng lớn mạnh."
+            },
+            {
+              "item_string": "Sản phẩm Web khác",
+              "question_string": "Điều gì quan trọng hơn với bạn?",
+              "code_children": false,
+              "image": "icon_website@2x.png",
+              "item_keys": null,
+              "url_string": "other-web-product",
+              "children": [
+                {
+                  "item_string": "Tốc độ",
+                  "question_string": "Node.js",
+                  "code_children": false,
+                  "image": "icon_performance@2x.png",
+                  "item_keys": [
+                    "javascript"
+                  ],
+                  "url_string": "performance",
+                  "children": [],
+                  "reason": "JavaScript hầu như được sử dụng ở front-end để làm giao diện linh hoạt. Tuy nhiên, với Node.js, bạn có thể dùng nó để viết back-end, tập trung vào các hệ thống hoạt động. Nếu muốn lập trình Web thì bắt buộc bạn phải biết JavaScript, ngôn ngữ này cũng khá dễ học."
+                },
+                {
+                  "item_string": "Phát triển sản phẩm nhanh",
+                  "question_string": "Ruby on Rails",
+                  "code_children": false,
+                  "image": "icon_gettingAnMVPQuickly@2x.png",
+                  "item_keys": [
+                    "ruby"
+                  ],
+                  "url_string": "getting-an-mvp-site-quickly",
+                  "children": [],
+                  "reason": "Ruby on Rails là một framework nổi tiếng, được nhiều startup sử dụng. Các developer cũng thích nó và thấy nó dễ làm việc. Ngôn ngữ Ruby cho phép bạn xây dựng chức năng, giải quyết vấn đề một cách uyển chuyển so với các ngôn ngữ khác. Lập trình viên Ruby hơi khó kiếm so với các ngôn ngữ khác."
+                },
+                {
+                  "item_string": "Phân tích dữ liệu",
+                  "question_string": "Python",
+                  "code_children": false,
+                  "image": "icon_dataAnalysis@2x.png",
+                  "item_keys": [
+                    "python"
+                  ],
+                  "url_string": "analyzing-data",
+                  "children": [],
+                  "reason": "Python là một ngôn ngữ dễ học, dễ dùng. Nó đang dần trở nên phổ biến vì dễ dàng phân tích dữ liệu, tích hợp với web. Nhiều công ty lớn như Google và Netflix sử dụng Python."
+                },
+                {
+                  "item_string": "Lương thấp, dễ trả",
+                  "question_string": "PHP",
+                  "code_children": false,
+                  "image": "icon_affordableSalary@2x.png",
+                  "item_keys": [
+                    "php"
+                  ],
+                  "url_string": "php-code",
+                  "children": [],
+                  "reason": "Rất nhiều doanh nghiệp vừa và nhỏ sử dụng các CMS như Wordpress để tạo website một cách nhanh chóng. Dùng Wordpress đòi hỏi một số kiến thức về PHP, khiến PHP trở nên nổi tiếng. Nếu bạn muốn tạo một trang Web thương mai điện tử, PHP là cách nhanh chóng và dễ dàng nhất."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_string": "Mobile",
+          "question_string": "Hệ điều hành nào?",
+          "code_children": false,
+          "image": "icon_mobileDevelopment@2x.png",
+          "item_keys": null,
+          "url_string": "mobile",
+          "children": [
+            {
+              "item_string": "iOS",
+              "question_string": "Swift",
+              "code_children": false,
+              "image": "icon_iOSApp@2x.png",
+              "item_keys": [
+                "swift"
+              ],
+              "url_string": "ios",
+              "children": [],
+              "reason": "Nếu muốn phát triển ứng dụng iOS hoặc ứng dụng Mac, bạn phải học Swift. Lập trình game với Swift cũng rất dễ với SpriteKit."
+            },
+            {
+              "item_string": "Android",
+              "question_string": "Java",
+              "code_children": false,
+              "image": "icon_androidApp@2x.png",
+              "item_keys": [
+                "java"
+              ],
+              "url_string": "android",
+              "children": [],
+              "reason": "Nếu muốn lập trình ứng dụng Android, hãy chọn Java. Java là một ngôn ngữ đa chức năng, khá đơn giản, dễ sử dụng và mở rộng. Cộng đồng Java cũng khá đông và hung hãn, sẵn sàng giúp đỡ bạn."
+            },
+            {
+              "item_string": "Windows",
+              "question_string": "C#",
+              "code_children": false,
+              "image": "icon_windowsApp@2x.png",
+              "item_keys": [
+                "c-sharp"
+              ],
+              "url_string": "windows",
+              "children": [],
+              "reason": "C# là một ngôn ngữ đa chức năng được phát triển bởi Microsoft, dùng để phát triển ứng dụng Windows. Các lập trình viên C# yêu thích nó vì nó rất dễ sử dụng, thiết kế tốt. Nếu muốn viết ứng dụng cho Microsoft, đương nhiên phải học C#."
+            }
+          ]
+        },
+        {
+          "item_string": "Game",
+          "question_string": "Game nào thuộc nền tảng nào?",
+          "code_children": false,
+          "image": "icon_game@2x.png",
+          "item_keys": null,
+          "url_string": "game",
+          "children": [
+            {
+              "item_string": "Virtual Reality",
+              "question_string": "C#",
+              "code_children": false,
+              "image": "icon_virtualReality@2x.png",
+              "item_keys": [
+                "c-sharp"
+              ],
+              "url_string": "virtual-reality",
+              "children": [],
+              "reason": "Unity Game Engine là một engine phổ biến để phát triển game và VR. Ngôn ngữ C# thường được sử dụng cùng với engine này. Cộng đồng lập trình viên Unity rất đông và hung hãn, sẵn sàng trợ giúp cho bạn."
+            },
+            {
+              "item_string": "Game di động",
+              "question_string": "Bạn muốn làm loại game gì?",
+              "code_children": false,
+              "image": "icon_mobileGame@2x.png",
+              "item_keys": null,
+              "url_string": "mobile-game",
+              "children": [
+                {
+                  "item_string": "2D",
+                  "question_string": "C++/Cocos2Dx",
+                  "code_children": false,
+                  "image": "icon_2D@2x.png",
+                  "item_keys": [
+                    "c-plus-plus"
+                  ],
+                  "url_string": "2d",
+                  "children": [],
+                  "reason": "C++ là một ngữ vô cùng mạnh mẽ. C++ cho phép bạn làm việc trực tiếp với tài nguyên phần cứng nên có tốc độ rất nhanh. Nhờ tốc độ của nó, C++ thường được dùng để lập trình game engine, game, ứng dụng. Rất nhiều game di động nổi tiếng được viết bằng Cocos2Dx framework của C++."
+                },
+                {
+                  "item_string": "3D",
+                  "question_string": "C#/Unity",
+                  "code_children": false,
+                  "image": "icon_3D@2x.png",
+                  "item_keys": [
+                    "c-sharp"
+                  ],
+                  "url_string": "3d",
+                  "children": [],
+                  "reason": "C# là một ngôn ngữ lập trình được khuyên dùng khi làm game với engine Unity, engine phổ biến nhất với 45% thị phần. Cộng đồng lập trình viên Unity rất đông và hung hãn, sẵn sàng trợ giúp cho bạn."
+                }
+              ]
+            },
+            {
+              "item_string": "Web Game",
+              "question_string": "HTML5",
+              "code_children": false,
+              "image": "icon_gameOnWebsite@2x.png",
+              "item_keys": [
+                "html5"
+              ],
+              "url_string": "web-game",
+              "children": [],
+              "reason": "Ứng dụng HTML5 được xây dựng bằng HTML5, CSS3 và JavaScript. HTML tạo nên cấu trúc trang Web, CSS làm giao diện đẹp hơn và JavaScript thêm chức năng vào trang. Cả 3 ngôn ngữ này đều rất dễ học và làm quen."
+            },
+            {
+              "item_string": "Game PC",
+              "question_string": "Điều gì quan trọng hơn?",
+              "code_children": false,
+              "image": "icon_gameOnDesktop@2x.png",
+              "item_keys": null,
+              "url_string": "pc-games",
+              "children": [
+                {
+                  "item_string": "Đồ họa/Tốc độ",
+                  "question_string": "Unreal/C++",
+                  "code_children": false,
+                  "image": "icon_awesomeGraphic@2x.png",
+                  "item_keys": [
+                    "c-plus-plus"
+                  ],
+                  "url_string": "graphics-performance",
+                  "children": [],
+                  "reason": "C++ là một ngữ vô cùng mạnh mẽ. C++ cho phép bạn làm việc trực tiếp với tài nguyên phần cứng nên có tốc độ rất nhanh. Nhờ tốc độ của nó, C++ thường được dùng để lập trình game engine, game, ứng dụng. Rất nhiều game bom tấn nổi tiếng được viết bằng Unreal engine của C++."
+                },
+                {
+                  "item_string": "Phát triển game nhanh và dễ",
+                  "question_string": "Unity/C#",
+                  "code_children": false,
+                  "image": "icon_justWantToMakeGames@2x.png",
+                  "item_keys": [
+                    "c-sharp"
+                  ],
+                  "url_string": "getting-a-game-out",
+                  "children": [],
+                  "reason": "C# là một ngôn ngữ lập trình được khuyên dùng khi làm game với engine Unity, engine phổ biến nhất với 45% thị phần. Cộng đồng lập trình viên Unity rất đông và hung hãn, sẵn sàng trợ giúp cho bạn."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_string": "Làm vài thứ hay ho",
+      "question_string": "Làm app dạng gì?",
+      "code_children": false,
+      "image": "icon_toBuildSomethingFun@2x.png",
+      "item_keys": null,
+      "url_string": "build-something-fun",
+      "children": [
+        {
+          "item_string": "Mobile",
+          "question_string": "Hệ điều hành nào?",
+          "code_children": false,
+          "image": "icon_mobileApp@2x.png",
+          "item_keys": null,
+          "url_string": "mobile",
+          "children": [
+            {
+              "item_string": "iOS",
+              "question_string": "Swift",
+              "code_children": false,
+              "image": "icon_iOSApp@2x.png",
+              "item_keys": [
+                "swift"
+              ],
+              "url_string": "ios",
+              "children": [],
+              "reason": "Nếu muốn phát triển ứng dụng iOS hoặc ứng dụng Mac, bạn phải học Swift. Lập trình game với Swift cũng rất dễ với SpriteKit"
+            },
+            {
+              "item_string": "Android",
+              "question_string": "Java",
+              "code_children": false,
+              "image": "icon_androidApp@2x.png",
+              "item_keys": [
+                "java"
+              ],
+              "url_string": "android",
+              "children": [],
+              "reason": "Nếu muốn lập trình ứng dụng Android, hãy chọn Java. Java là một ngôn ngữ đa chức năng, khá đơn giản, dễ sử dụng và mở rộng. Cộng đồng Java cũng khá đông và hung hãn, sẵn sàng giúp đỡ bạn."
+            },
+            {
+              "item_string": "Windows",
+              "question_string": "C#",
+              "code_children": false,
+              "image": "icon_windowsApp@2x.png",
+              "item_keys": [
+                "c-sharp"
+              ],
+              "url_string": "windows",
+              "children": [],
+              "reason": "C# là một ngôn ngữ đa chức năng được phát triển bởi Microsoft, dùng để phát triển ứng dụng Windows. Các lập trình viên C# yêu thích nó vì nó rất dễ sử dụng, thiết kế tốt. Nếu muốn viết ứng dụng cho Microsoft, đương nhiên phải học C#."
+            },
+            {
+              "item_string": "Toàn bộ",
+              "question_string": "1.HTML5 2.CSS 3.JavaScript",
+              "code_children": false,
+              "image": "icon_allPlatformApp@2x.png",
+              "item_keys": [
+                "html5"
+              ],
+              "url_string": "all",
+              "children": [],
+              "reason": "Ứng dụng HTML5 được xây dựng bằng HTML5, CSS3 và JavaScript. HTML tạo nên cấu trúc trang Web, CSS làm giao diện đẹp hơn và JavaScript thêm chức năng vào trang. Cả 3 ngôn ngữ này đều rất dễ học và làm quen. Bạn có thể dùng 3 ngôn ngữ này để làm một ứng dụng nho nhỏ."
+            }
+          ]
+        },
+        {
+          "item_string": "Web",
+          "question_string": "Bạn thấy phần nào thú vị nhất?",
+          "code_children": false,
+          "image": "icon_websiteDevelopment@2x.png",
+          "item_keys": null,
+          "url_string": "web",
+          "children": [
+            {
+              "item_string": "Design: Thiết kế các thứ",
+              "question_string": "HTML/CSS",
+              "code_children": false,
+              "image": "icon_design@2x.png",
+              "item_keys": [
+                "html5"
+              ],
+              "url_string": "design-how-things-look",
+              "children": [],
+              "reason": "Nếu bạn muốn tạo giao diện cho web hoặc email, bạn cần học HTML và CSS. HTML tạo nên cấu trúc trang Web, CSS làm giao diện đẹp hơn."
+            },
+            {
+              "item_string": "UX: Cách người dùng tương tác với trang web",
+              "question_string": "Basic HTML/CSS JavaScript",
+              "code_children": false,
+              "image": "icon_UX@2x.png",
+              "item_keys": [
+                "javascript",
+                "html5"
+              ],
+              "url_string": "ux-how-to-interact-with-things",
+              "children": [],
+              "reason": "JavaScript là một ngôn ngữ bắt buộc phải học khi lập trình Web. Nó dược dùng để tạo các trạng Web động. JavaScript có thể chạy trên mọi trình duyệt."
+            },
+            {
+              "item_string": "Logic: Cách mọi thứ hoạt động",
+              "question_string": "Bạn thấy thích cái nào hơn?",
+              "code_children": true,
+              "image": "icon_logic@2x.png",
+              "item_keys": null,
+              "url_string": "logic-how-things-work",
+              "children": [
+                {
+                  "item_string": "Python Code",
+                  "question_string": "Python",
+                  "code_children": false,
+                  "image": "img_code_python@2x.png",
+                  "item_keys": [
+                    "python"
+                  ],
+                  "url_string": "python-code",
+                  "children": [],
+                  "reason": "Python rất dễ học, cho phép bạn nhanh chóng xây dựng prototype và ứng dụng. Một số trang web nổi tiếng được viết bằng Python là Google, Reddit, Dropbox, Netflix, Paypal, Spotifiy,..."
+                },
+                {
+                  "item_string": "Ruby Code",
+                  "question_string": "Ruby",
+                  "code_children": false,
+                  "image": "img_code_Ruby@2x.png",
+                  "item_keys": [
+                    "ruby"
+                  ],
+                  "url_string": "ruby-code",
+                  "children": [],
+                  "reason": "Ruby on Rails là một framework nổi tiếng, được nhiều startup sử dụng. Các developer cũng thích nó và thấy nó dễ làm việc. Ngôn ngữ Ruby cho phép bạn xây dựng chức năng, giải quyết vấn đề một cách uyển chuyển so với các ngôn ngữ khác. Ruby Developer có mức lương trung bình cao thứ 2 trong Angel List."
+                },
+                {
+                  "item_string": "PHP Code",
+                  "question_string": "PHP",
+                  "code_children": false,
+                  "image": "img_code_php@2x.png",
+                  "item_keys": [
+                    "php"
+                  ],
+                  "url_string": "php-code",
+                  "children": [],
+                  "reason": "PHP là một ngôn ngữ lập trình web đơn giản, dễ học, dễ tìm hiểu so với các ngôn ngữ khác. Với PHP, bạn có thể xây dựng Web từ đầu chỉ với ít dòng code."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_string": "Làm game nho nhỏ",
+          "question_string": "Trên nền tảng gì?",
+          "code_children": false,
+          "image": "icon_buildSmallGame@2x.png",
+          "item_keys": null,
+          "url_string": "build-small-game",
+          "children": [
+            {
+              "item_string": "Mobile",
+              "question_string": "HTML5",
+              "code_children": false,
+              "image": "icon_mobileGame@2x.png",
+              "item_keys": [
+                "html5"
+              ],
+              "url_string": "html5",
+              "children": [],
+              "reason": "Ứng dụng HTML5 được xây dựng bằng HTML5, CSS3 và JavaScript. HTML tạo nên cấu trúc trang Web, CSS làm giao diện đẹp hơn và JavaScript thêm chức năng vào trang. Cả 3 ngôn ngữ này đều rất dễ học và làm quen."
+            },
+            {
+              "item_string": "Máy tính",
+              "question_string": "Hai cái phía dưới thích cái nào?",
+              "code_children": true,
+              "image": "icon_gameOnDesktop@2x.png",
+              "item_keys": null,
+              "url_string": "desktop",
+              "children": [
+                {
+                  "item_string": "Python Code",
+                  "question_string": "Python",
+                  "code_children": false,
+                  "image": "img_code_python@2x.png",
+                  "item_keys": [
+                    "python"
+                  ],
+                  "url_string": "python-code",
+                  "children": [],
+                  "reason": "Python rất dễ học, cho phép bạn nhanh chóng xây dựng prototype và ứng dụng. Một số trang web nổi tiếng được viết bằng Python là Google, Reddit, Dropbox, Netflix, Paypal, Spotifiy,..."
+                },
+                {
+                  "item_string": "C# Code",
+                  "question_string": "C#",
+                  "code_children": false,
+                  "image": "img_code_C_sharp@2x.png",
+                  "item_keys": [
+                    "c-sharp"
+                  ],
+                  "url_string": "c-sharp-code",
+                  "children": [],
+                  "reason": "C# là một ngôn ngữ lập trình được khuyên dùng khi làm game với engine Unity, engine phổ biến nhất với 45% thị phần. Cộng đồng lập trình viên Unity rất đông và hung hãn, sẵn sàng trợ giúp cho bạn."
+                }
+              ]
+            },
+            {
+              "item_string": "Trình duyệt (desktop)",
+              "question_string": "1.HTML5 2.CSS3 3.JavaScript",
+              "code_children": false,
+              "image": "icon_gameOnWebsite@2x.png",
+              "item_keys": [
+                "html5"
+              ],
+              "url_string": "browser-desktop",
+              "children": [],
+              "reason": "Ứng dụng HTML5 được xây dựng bằng HTML5, CSS3 và JavaScript. HTML tạo nên cấu trúc trang Web, CSS làm giao diện đẹp hơn và JavaScript thêm chức năng vào trang. Cả 3 ngôn ngữ này đều rất dễ học và làm quen."
+            }
+          ]
+        },
+        {
+          "item_string": "Tự động hóa",
+          "question_string": "Tự động hóa cái gì?",
+          "code_children": false,
+          "image": "icon_generalTaskAutomation@2x.png",
+          "item_keys": null,
+          "url_string": "task-automation",
+          "children": [
+            {
+              "item_string": "Google Drive Service",
+              "question_string": "JavaScript",
+              "code_children": false,
+              "image": "icon_googleSheetAutomation@2x.png",
+              "item_keys": [
+                "javascript"
+              ],
+              "url_string": "google-drive-service",
+              "children": [],
+              "reason": "JavaScript là một ngôn ngữ mạnh mẽ, chạy được trên mọi trình duyệt, cho phép bạn xây dựng một trang Web động. Google Apps Script xây dựng dựa trên JavaScript nên học JavaScript sẽ giúp bạn dễ tiếp cận nó hơn."
+            },
+            {
+              "item_string": "Tự động hóa chung chung",
+              "question_string": "Hai cái phía dưới thích cái nào?",
+              "code_children": true,
+              "image": "icon_generalTaskAutomation@2x.png",
+              "item_keys": null,
+              "url_string": "general-task-automation",
+              "children": [
+                {
+                  "item_string": "Python Code",
+                  "question_string": "Python",
+                  "code_children": false,
+                  "image": "img_code_python@2x.png",
+                  "item_keys": [
+                    "python"
+                  ],
+                  "url_string": "python-code",
+                  "children": [],
+                  "reason": "Python rất dễ học, cho phép bạn nhanh chóng xây dựng prototype và ứng dụng. Một số trang web nổi tiếng được viết bằng Python là Google, Reddit, Dropbox, Netflix, Paypal, Spotifiy,..."
+                },
+                {
+                  "item_string": "Ruby Code",
+                  "question_string": "Ruby",
+                  "code_children": false,
+                  "image": "img_code_Ruby@2x.png",
+                  "item_keys": [
+                    "ruby"
+                  ],
+                  "url_string": "ruby-code",
+                  "children": [],
+                  "reason": "Ruby là một trong những ngôn ngữ dễ học nhất, có thể xây dựng hầu hết các thứ."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_string": "Làm một con AI nho nhỏ",
+          "question_string": "Python",
+          "code_children": false,
+          "image": "icon_simpleAI@2x.png",
+          "item_keys": [
+            "python"
+          ],
+          "url_string": "simple-ai",
+          "children": [],
+          "reason": "Python rất dễ học, cho phép bạn nhanh chóng xây dựng prototype và ứng dụng. Nó cũng là một lựa chọn thích hợp khi bạn muốn viết bot hoặc AI. Một số trang web nổi tiếng được viết bằng Python là Google, Reddit, Dropbox, Netflix, Paypal, Spotifiy,..."
+        }
+      ]
+    },
+    {
+      "item_string": "Học thêm kĩ năng mới",
+      "question_string": "Kĩ năng dạng gì?",
+      "code_children": false,
+      "image": "icon_toGainAnotherSkill@2x.png",
+      "item_keys": null,
+      "url_string": "have-another-skill",
+      "children": [
+        {
+          "item_string": "Làm ứng dụng di động",
+          "question_string": "Hệ điều hành gì?",
+          "code_children": false,
+          "image": "icon_mobileDevelopment@2x.png",
+          "item_keys": null,
+          "url_string": "mobile-development",
+          "children": [
+            {
+              "item_string": "iOS",
+              "question_string": "Swift",
+              "code_children": false,
+              "image": "icon_iOSApp@2x.png",
+              "item_keys": [
+                "swift"
+              ],
+              "url_string": "ios",
+              "children": [],
+              "reason": "Nếu muốn phát triển ứng dụng iOS hoặc ứng dụng Mac, bạn phải học Swift. Lập trình game với Swift cũng rất dễ với SpriteKit."
+            },
+            {
+              "item_string": "Android",
+              "question_string": "Java",
+              "code_children": false,
+              "image": "icon_androidApp@2x.png",
+              "item_keys": [
+                "java"
+              ],
+              "url_string": "android",
+              "children": [],
+              "reason": "Nếu muốn lập trình ứng dụng Android, hãy chọn Java. Java là một ngôn ngữ đa chức năng, khá đơn giản, dễ sử dụng và mở rộng. Cộng đồng Java cũng khá đông và hung hãn, sẵn sàng giúp đỡ bạn."
+            },
+            {
+              "item_string": "Windows",
+              "question_string": "C#",
+              "code_children": false,
+              "image": "icon_windowsApp@2x.png",
+              "item_keys": [
+                "c-sharp"
+              ],
+              "url_string": "windows",
+              "children": [],
+              "reason": "C# là một ngôn ngữ đa chức năng được phát triển bởi Microsoft, dùng để phát triển ứng dụng Windows. Các lập trình viên C# yêu thích nó vì nó rất dễ sử dụng, thiết kế tốt. Nếu muốn viết ứng dụng cho Microsoft, đương nhiên phải học C#."
+            }
+          ]
+        },
+        {
+          "item_string": "Lập trình Web",
+          "question_string": "Hiện tại bạn đang làm gì?",
+          "code_children": false,
+          "image": "icon_websiteDevelopment@2x.png",
+          "item_keys": null,
+          "url_string": "website-development",
+          "children": [
+            {
+              "item_string": "Designer/Marketing",
+              "question_string": "HTML/CSS",
+              "code_children": false,
+              "image": "icon_marketerORdesigner@2x.png",
+              "item_keys": [
+                "html5"
+              ],
+              "url_string": "designer-marketing",
+              "children": [],
+              "reason": "Nếu bạn muốn tạo giao diện cho web hoặc email, bạn cần học HTML và CSS. HTML tạo nên cấu trúc trang Web, CSS làm giao diện đẹp hơn."
+            },
+            {
+              "item_string": "Project manager",
+              "question_string": "Công ty của bạn thuộc dạng nào?",
+              "code_children": false,
+              "image": "icon_projectManager@2x.png",
+              "item_keys": null,
+              "url_string": "project-manager",
+              "children": [
+                {
+                  "item_string": "Công ty nhỏ",
+                  "question_string": "PHP",
+                  "code_children": false,
+                  "image": "icon_smallBusiness@2x.png",
+                  "item_keys": [
+                    "php"
+                  ],
+                  "url_string": "small-business",
+                  "children": [],
+                  "reason": "PHP được sử dụng rộng rãi để làm Web với sự hỗ trợ của Wordpress, Joomla và 1 số CMS khác. 80% của 10 triệu trang web lớn nhất sử dụng PHP, trong đó có Facebook và Wikipedia."
+                },
+                {
+                  "item_string": "Công ty Start-up",
+                  "question_string": "Bạn thấy thích cái nào hơn?",
+                  "code_children": true,
+                  "image": "icon_startup@2x.png",
+                  "item_keys": null,
+                  "url_string": "startups",
+                  "children": [
+                    {
+                      "item_string": "Python Code",
+                      "question_string": "Python",
+                      "code_children": false,
+                      "image": "img_code_python@2x.png",
+                      "item_keys": [
+                        "python"
+                      ],
+                      "url_string": "python",
+                      "children": [],
+                      "reason": "Python rất dễ học, cho phép bạn nhanh chóng xây dựng prototype và ứng dụng. Một số trang web nổi tiếng được viết bằng Python là Google, Reddit, Dropbox, Netflix, Paypal, Spotifiy,..."
+                    },
+                    {
+                      "item_string": "Ruby Code",
+                      "question_string": "Ruby",
+                      "code_children": false,
+                      "image": "img_code_Ruby@2x.png",
+                      "item_keys": [
+                        "ruby"
+                      ],
+                      "url_string": "ruby",
+                      "children": [],
+                      "reason": "Ruby on Rails là một framework nổi tiếng, được nhiều startup sử dụng. Các developer cũng thích nó và thấy nó dễ làm việc. Ngôn ngữ Ruby cho phép bạn xây dựng chức năng, giải quyết vấn đề một cách uyển chuyển so với các ngôn ngữ khác. Ruby Developer có mức lương trung bình cao thứ 2 trong Angel List."
+                    },
+                    {
+                      "item_string": "JavaScript Code",
+                      "question_string": "JavaScript",
+                      "code_children": false,
+                      "image": "img_code_JavaScript@2x.png",
+                      "item_keys": [
+                        "javascript"
+                      ],
+                      "url_string": "javascript",
+                      "children": [],
+                      "reason": "JavaScript là một ngôn ngữ bắt buộc phải học khi lập trình Web. Nó dược dùng để tạo các trạng Web động. JavaScript có thể chạy trên mọi trình duyệt."
+                    }
+                  ]
+                },
+                {
+                  "item_string": "Công ty lớn",
+                  "question_string": "Java",
+                  "code_children": false,
+                  "image": "icon_traditionalEnterprise@2x.png",
+                  "item_keys": [
+                    "java"
+                  ],
+                  "url_string": "traditional-enterprise",
+                  "children": [],
+                  "reason": "Java là một ngôn ngữ nổi tiếng được các doanh nghiệp ưa thích, 90% các công ty trong danh sách Fortune 500 dùng nó. Khi các công ty start-up cần mở rộng hay tăng tốc độ chương trình, họ thường dùng Java. Các lập trình viên Java luôn được săn đón, và cộng đồng này ngày càng lớn mạnh."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_string": "Phân tích dữ liệu",
+          "question_string": "Điều nào quan trọng hơn?",
+          "code_children": false,
+          "image": "icon_dataAnalysis@2x.png",
+          "item_keys": null,
+          "url_string": "data-analysis",
+          "children": [
+            {
+              "item_string": "Công tác thống kê",
+              "question_string": "R",
+              "code_children": false,
+              "image": "icon_statisticalFunctionality@2x.png",
+              "item_keys": [
+                "r"
+              ],
+              "url_string": "statistical-tasks",
+              "children": [],
+              "reason": "Ngôn ngữ R được thiết kế bởi các chuyên gia thống kê để tính toán, nó được sinh ra để làm tính thống kê và xác xuất. Khi công nghệ càng phát triển, dữ liệu các công ty thu thập ngày càng nhiều và phức tạp, nhiều công ty đã chọn R làm ngôn ngữ để phân tích dữ liệu."
+            },
+            {
+              "item_string": "Dễ học",
+              "question_string": "Python",
+              "code_children": false,
+              "image": "icon_easeOfLearning@2x.png",
+              "item_keys": [
+                "python"
+              ],
+              "url_string": "ease-of-learning",
+              "children": [],
+              "reason": "Với những bạn thích nghiên cứu và phân tích big data, Python là một ngôn ngữ mạnh mẽ, rất đáng học. Python có một cộng đồng hoạt động tích cực, hay cập nhật phiên bản mới. Theo Google Trends, ngày càng có nhiều người học Python."
+            }
+          ]
+        },
+        {
+          "item_string": "Thiết kế email",
+          "question_string": "HTML/CSS",
+          "code_children": false,
+          "image": "icon_emailDesign@2x.png",
+          "item_keys": [
+            "html5"
+          ],
+          "url_string": "email-design",
+          "children": [],
+          "reason": "Nếu bạn muốn tạo giao diện cho web hoặc email, bạn cần học HTML và CSS. HTML tạo nên cấu trúc trang Web, CSS làm giao diện đẹp hơn."
+        }
+      ]
+    }
+  ]
+}
