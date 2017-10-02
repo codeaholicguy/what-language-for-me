@@ -1,10 +1,10 @@
-import React from "react";
-import { Route, IndexRoute } from "react-router";
+import React from 'react';
+import { Route, IndexRoute } from 'react-router';
 
-import Layout from "./layout";
+import Layout from './layout';
 
-import App from "../home";
-import Question from "../question";
+import App from '../home';
+import Question from '../question';
 
 export default function createRoutes() {
   return (

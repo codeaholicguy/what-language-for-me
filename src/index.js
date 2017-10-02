@@ -1,7 +1,7 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import Main from "./main";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Main from './main';
 
-window.question = require("./core/data/questions.json");
+window.question = require('./core/data/questions.json');
 
-ReactDOM.render(<Main />, document.getElementById("app"));
+ReactDOM.render(<Main />, document.getElementById('app'));

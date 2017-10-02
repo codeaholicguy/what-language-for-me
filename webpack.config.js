@@ -25,7 +25,19 @@ module.exports = {
 
   module: {
     loaders: [
-      { test: /\.js?$/, exclude: /node_modules/, loader: "react-hot!babel" },
+      { 
+        test: /\.js?$/,
+        exclude: /node_modules/,
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: ["env","react","stage-0",
+            "stage-1",
+            "stage-2"],
+            plugins: ["transform-decorators-legacy"]
+          }
+        }
+      },
       { test: /\S+\/core\/images\/\S+.(png|jpg|jpeg)$/, loader: "url-loader" },
       { test: /\S+\/core\/data\/\S+.json$/, loader: "json-loader" }
     ]
