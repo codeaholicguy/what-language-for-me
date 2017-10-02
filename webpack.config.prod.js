@@ -12,14 +12,29 @@ module.exports = {
   },
 
   module: {
-    preLoaders: [
-      { test: /\.js$/, loader: "eslint-loader", exclude: /node_modules/ }
-    ],
-    loaders: [
-      { test: /\.js?$/, exclude: /node_modules/, loader: "react-hot!babel" },
+    rules: [
+      {
+        enforce: "pre",
+        test: /\.js$/,
+        exclude: /node_modules/,
+        loader: "eslint-loader"
+      },
+      { 
+        test: /\.js?$/, 
+        exclude: /node_modules/, 
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: ["env","react","stage-0",
+            "stage-1",
+            "stage-2"],
+            plugins: ["transform-decorators-legacy"]
+          }
+        }
+      },
       { test: /\S+\/core\/images\/\S+.(png|jpg|jpeg)$/, loader: "url-loader" },
       { test: /\S+\/core\/data\/\S+.json$/, loader: "json-loader" }
-    ]
+    ],
   },
 
   plugins: [
@@ -28,7 +43,6 @@ module.exports = {
         NODE_ENV: JSON.stringify("production")
       }
     }),
-    new webpack.optimize.DedupePlugin(),
     new webpack.optimize.OccurrenceOrderPlugin(),
     new webpack.optimize.UglifyJsPlugin({
       output: {
