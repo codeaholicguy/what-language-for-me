@@ -1,9 +1,10 @@
-import React, { PropTypes, Component } from "react";
-import Radium from "radium";
-import * as colors from "material-ui/styles/colors";
-import RaisedButton from "material-ui/RaisedButton";
-import { Card, CardTitle, CardText, CardActions } from "material-ui/Card";
-import Replay from "material-ui/svg-icons/av/replay";
+import React, { Component } from 'react'
+import Radium from 'radium'
+import PropTypes from 'prop-types'
+import * as colors from 'material-ui/styles/colors'
+import RaisedButton from 'material-ui/RaisedButton'
+import { Card, CardTitle, CardText, CardActions } from 'material-ui/Card'
+import Replay from 'material-ui/svg-icons/av/replay'
 
 @Radium
 export default class Result extends Component {
@@ -12,7 +13,7 @@ export default class Result extends Component {
     onAgainButtonClicked: PropTypes.func.isRequired
   };
 
-  render() {
+  render () {
     return (
       <div style={styles.cardWrapper}>
         <Card style={styles.card}>
@@ -23,7 +24,7 @@ export default class Result extends Component {
                 style={styles.languageLogo}
                 src={require(`../core/images/icons/${item.replace(
                   /-/g,
-                  "_"
+                  '_'
                 )}@2x.png`)}
               />
             ))}
@@ -43,29 +44,29 @@ export default class Result extends Component {
           </CardActions>
         </Card>
       </div>
-    );
+    )
   }
 }
 
 const styles = {
   cardWrapper: {
-    display: "flex",
-    flexFlow: "column",
-    alignItems: "center"
+    display: 'flex',
+    flexFlow: 'column',
+    alignItems: 'center'
   },
   card: {
-    width: "50%",
-    "@media (maxWidth: 1024px)": {
-      width: "90%"
+    width: '50%',
+    '@media (maxWidth: 1024px)': {
+      width: '90%'
     }
   },
   cardTitle: {
-    display: "flex",
-    justifyContent: "center"
+    display: 'flex',
+    justifyContent: 'center'
   },
   languageLogo: {
     height: 80,
-    padding: "0px 10px 0px 10px"
+    padding: '0px 10px 0px 10px'
   },
   cardText: {
     backgroundColor: colors.cyan500,
@@ -76,10 +77,10 @@ const styles = {
     backgroundColor: colors.cyan500
   },
   buttonWrapper: {
-    display: "flex",
-    justifyContent: "center"
+    display: 'flex',
+    justifyContent: 'center'
   },
   button: {
     marginRight: 10
   }
-};
+}

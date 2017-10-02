@@ -1,7 +1,57 @@
-import React, { Component, PropTypes } from "react";
-import Radium from "radium";
-import * as colors from "material-ui/styles/colors";
+import React, { Component } from 'react'
+import Radium from 'radium'
+import PropTypes from 'prop-types';
+import * as colors from 'material-ui/styles/colors'
 
+const styles = {
+  container: {
+    display: 'inline-flex',
+    flexFlow: 'column',
+    alignItems: 'center',
+    width: 420,
+    cursor: 'pointer',
+    '@media (max-width: 1024px)': {
+      width: '40%',
+      padding: '5%'
+    }
+  },
+  iconWrapper: {
+    height: 200
+  },
+  icon: {
+    width: 150
+  },
+  iconHovered: {
+    width: 150,
+    paddingTop: 20,
+    transitionDuration: '.2s',
+    '@media (max-width: 1024px)': {
+      paddingTop: 0
+    }
+  },
+  code: {
+    width: 400
+  },
+  answer: {
+    fontSize: 18,
+    color: colors.white,
+    textAlign: 'center',
+    '@media (max-width: 1024px)': {
+      fontSize: 30
+    }
+  },
+  answerHovered: {
+    fontSize: 18,
+    color: colors.white,
+    textAlign: 'center',
+    backgroundColor: colors.cyan500,
+    padding: '0px 30px 0px 30px',
+    borderRadius: 20,
+    '@media (max-width: 1024px)': {
+      fontSize: 30
+    }
+  }
+}
 @Radium
 export default class Answer extends Component {
   static propTypes = {
@@ -10,37 +60,37 @@ export default class Answer extends Component {
     code: PropTypes.bool
   };
 
-  constructor(props) {
-    super(props);
+  constructor (props) {
+    super(props)
 
     this.state = {
       hovered: false,
       image: require(`../core/images/icons/${props.answer.image}`)
-    };
+    }
   }
 
-  componentWillReceiveProps(nextProps) {
+  componentWillReceiveProps (nextProps) {
     this.setState({
       hovered: false,
       image: require(`../core/images/icons/${nextProps.answer.image}`)
-    });
+    })
   }
 
-  _handleMouseOver() {
-    if (!this.state.hovered) this.setState({ hovered: true });
+  _handleMouseOver () {
+    if (!this.state.hovered) this.setState({ hovered: true })
   }
 
-  _handleMouseOut() {
-    if (this.state.hovered) this.setState({ hovered: false });
+  _handleMouseOut () {
+    if (this.state.hovered) this.setState({ hovered: false })
   }
 
-  render() {
+  render () {
     const answerStyle = this.state.hovered
       ? styles.answerHovered
-      : styles.answer;
+      : styles.answer
     const imageStyle = this.props.code
       ? styles.code
-      : this.state.hovered ? styles.iconHovered : styles.icon;
+      : this.state.hovered ? styles.iconHovered : styles.icon
 
     return (
       <div
@@ -54,56 +104,6 @@ export default class Answer extends Component {
         </div>
         <div style={answerStyle}>{this.props.answer.item_string}</div>
       </div>
-    );
+    )
   }
 }
-
-const styles = {
-  container: {
-    display: "inline-flex",
-    flexFlow: "column",
-    alignItems: "center",
-    width: 420,
-    cursor: "pointer",
-    "@media (max-width: 1024px)": {
-      width: "40%",
-      padding: "5%"
-    }
-  },
-  iconWrapper: {
-    height: 200
-  },
-  icon: {
-    width: 150
-  },
-  iconHovered: {
-    width: 150,
-    paddingTop: 20,
-    transitionDuration: ".2s",
-    "@media (max-width: 1024px)": {
-      paddingTop: 0
-    }
-  },
-  code: {
-    width: 400
-  },
-  answer: {
-    fontSize: 18,
-    color: colors.white,
-    textAlign: "center",
-    "@media (max-width: 1024px)": {
-      fontSize: 30
-    }
-  },
-  answerHovered: {
-    fontSize: 18,
-    color: colors.white,
-    textAlign: "center",
-    backgroundColor: colors.cyan500,
-    padding: "0px 30px 0px 30px",
-    borderRadius: 20,
-    "@media (max-width: 1024px)": {
-      fontSize: 30
-    }
-  }
-};

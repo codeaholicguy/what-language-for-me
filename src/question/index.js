@@ -1,42 +1,42 @@
-import React, { Component } from "react";
-import Radium from "radium";
-import * as colors from "material-ui/styles/colors";
+import React, { Component } from 'react'
+import Radium from 'radium'
+import * as colors from 'material-ui/styles/colors'
 
-import Answer from "./answer";
-import Result from "./result";
+import Answer from './answer'
+import Result from './result'
 
 @Radium
 export default class Question extends Component {
-  componentWillMount() {
+  componentWillMount () {
     this.setState({
       currentQuestion: window.question
-    });
+    })
   }
 
-  _handleAnswerClicked(question, code) {
+  _handleAnswerClicked (question, code) {
     return () => {
       this.setState({
         currentQuestion: question,
         code
-      });
-    };
+      })
+    }
   }
 
-  _handleAgainClicked() {
+  _handleAgainClicked () {
     this.setState({
       currentQuestion: window.question
-    });
+    })
   }
 
-  render() {
-    const currentQuestion = this.state.currentQuestion;
-    const question = currentQuestion.question_string;
-    const answers = currentQuestion.children;
+  render () {
+    const currentQuestion = this.state.currentQuestion
+    const question = currentQuestion.question_string
+    const answers = currentQuestion.children
     const title =
       answers.length > 0
         ? currentQuestion.item_string
-        : "Đây chính là ngôn ngữ lập trình dành cho bạn";
-    const language = currentQuestion.children.length === 0;
+        : 'Đây chính là ngôn ngữ lập trình dành cho bạn'
+    const language = currentQuestion.children.length === 0
 
     return (
       <div style={styles.container}>
@@ -65,42 +65,42 @@ export default class Question extends Component {
           />
         )}
       </div>
-    );
+    )
   }
 }
 
 const styles = {
   container: {
-    display: "flex",
-    flexFlow: "column",
-    width: "100%",
-    height: "100%",
-    justifyContent: "center",
+    display: 'flex',
+    flexFlow: 'column',
+    width: '100%',
+    height: '100%',
+    justifyContent: 'center',
     marginTop: 120,
     marginBottom: 40,
-    "@media (max-width: 1024px)": {
+    '@media (max-width: 1024px)': {
       marginBottom: 80
     }
   },
   titleWrapper: {
-    display: "flex",
-    justifyContent: "center"
+    display: 'flex',
+    justifyContent: 'center'
   },
   title: {
     fontSize: 24,
     fontWeight: 500,
     color: colors.white,
     backgroundColor: colors.cyan500,
-    padding: "5px 30px 5px 30px",
+    padding: '5px 30px 5px 30px',
     borderRadius: 20,
-    "@media (max-width: 1024px)": {
+    '@media (max-width: 1024px)': {
       fontSize: 36
     }
   },
   questionWrapper: {
-    display: "flex",
-    justifyContent: "center",
-    textAlign: "center",
+    display: 'flex',
+    justifyContent: 'center',
+    textAlign: 'center',
     padding: 20,
     zIndex: 1
   },
@@ -111,11 +111,11 @@ const styles = {
     textShadow: `2px 2px ${colors.grey900}`
   },
   answersWrapper: {
-    display: "flex",
-    justifyContent: "center",
-    width: "100%",
-    "@media (max-width: 1024px)": {
-      display: "block"
+    display: 'flex',
+    justifyContent: 'center',
+    width: '100%',
+    '@media (max-width: 1024px)': {
+      display: 'block'
     }
   }
-};
+}
