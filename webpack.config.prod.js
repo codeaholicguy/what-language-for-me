@@ -34,6 +34,7 @@ const plugins = [
     inject: true,
   }),
 ]
+
 module.exports = webpackBaseBabel({
   entry,
   output,

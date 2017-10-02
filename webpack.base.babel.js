@@ -16,13 +16,13 @@ const rules = [{
         loader: 'json-loader'
     },
 ];
-
 const plugins = [
     new HtmlWebpackPlugin({
         template: 'src/index.html',
         inject: true,
     }),
 ]
+
 module.exports = (options) => ({
     entry: options.entry,
 
@@ -35,7 +35,6 @@ module.exports = (options) => ({
 
     module: {
         rules: options.rules ? rules.concat(options.rules) : rules
-        
     },
 
     plugins: options.plugins ? plugins.concat(options.plugins) : plugins,

@@ -19,6 +19,7 @@ const devServer = {
   port: 8080,
   historyApiFallback: true,
 }
+
 module.exports = webpackBaseBabel({
   entry,
   output,
