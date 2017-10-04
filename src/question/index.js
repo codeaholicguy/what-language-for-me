@@ -5,8 +5,7 @@ import * as colors from 'material-ui/styles/colors'
 import Answer from './answer'
 import Result from './result'
 
-@Radium
-export default class Question extends Component {
+class Question extends Component {
   componentWillMount () {
     this.setState({
       currentQuestion: window.question
@@ -22,7 +21,7 @@ export default class Question extends Component {
     }
   }
 
-  _handleAgainClicked () {
+  _handleAgainClicked = () => {
     this.setState({
       currentQuestion: window.question
     })
@@ -61,7 +60,7 @@ export default class Question extends Component {
         {language && (
           <Result
             question={this.state.currentQuestion}
-            onAgainButtonClicked={::this._handleAgainClicked}
+            onAgainButtonClicked={this._handleAgainClicked}
           />
         )}
       </div>
@@ -119,3 +118,5 @@ const styles = {
     }
   }
 }
+
+export default Radium(Question);

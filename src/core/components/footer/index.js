@@ -30,7 +30,7 @@ const style = {
     color: colors.cyan700
   }
 }
-@Radium
+
 class Footer extends Component {
   render () {
     return (
@@ -43,4 +43,4 @@ class Footer extends Component {
     )
   }
 }
-export default Footer
+export default Radium(Footer);
