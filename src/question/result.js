@@ -6,8 +6,7 @@ import RaisedButton from 'material-ui/RaisedButton'
 import { Card, CardTitle, CardText, CardActions } from 'material-ui/Card'
 import Replay from 'material-ui/svg-icons/av/replay'
 
-@Radium
-export default class Result extends Component {
+class Result extends Component {
   static propTypes = {
     question: PropTypes.object.isRequired,
     onAgainButtonClicked: PropTypes.func.isRequired
@@ -20,6 +19,7 @@ export default class Result extends Component {
           <CardTitle style={styles.cardTitle}>
             {this.props.question.item_keys.map((item, key) => (
               <img
+                alt="language-logo"
                 key={key}
                 style={styles.languageLogo}
                 src={require(`../core/images/icons/${item.replace(
@@ -84,3 +84,4 @@ const styles = {
     marginRight: 10
   }
 }
+export default Radium(Result);

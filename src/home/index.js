@@ -55,7 +55,7 @@ const styles = {
 }
 
 export default class Home extends Component {
-  _handleClicked () {
+  _handleClicked = () => {
     browserHistory.push('/q')
   }
 
@@ -72,7 +72,7 @@ export default class Home extends Component {
             label="Tìm câu trả lời"
             style={styles.beginButton}
             labelStyle={styles.beginLabel}
-            onTouchTap={::this._handleClicked} // eslint-disable-line
+            onTouchTap={this._handleClicked} // eslint-disable-line
           />
         </div>
       </div>

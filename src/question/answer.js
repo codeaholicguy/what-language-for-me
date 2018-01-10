@@ -52,8 +52,8 @@ const styles = {
     }
   }
 }
-@Radium
-export default class Answer extends Component {
+
+class Answer extends Component {
   static propTypes = {
     answer: PropTypes.object.isRequired,
     onTouchTap: PropTypes.func,
@@ -76,11 +76,11 @@ export default class Answer extends Component {
     })
   }
 
-  _handleMouseOver () {
+  _handleMouseOver = () => {
     if (!this.state.hovered) this.setState({ hovered: true })
   }
 
-  _handleMouseOut () {
+  _handleMouseOut = () => {
     if (this.state.hovered) this.setState({ hovered: false })
   }
 
@@ -96,14 +96,15 @@ export default class Answer extends Component {
       <div
         style={styles.container}
         onTouchTap={this.props.onTouchTap}
-        onMouseOver={::this._handleMouseOver}
-        onMouseOut={::this._handleMouseOut}
+        onMouseOver={this._handleMouseOver}
+        onMouseOut={this._handleMouseOut}
       >
         <div style={styles.iconWrapper}>
-          <img style={imageStyle} src={this.state.image} />
+          <img alt="answer-logo" style={imageStyle} src={this.state.image} />
         </div>
         <div style={answerStyle}>{this.props.answer.item_string}</div>
       </div>
     )
   }
 }
+export default Radium(Answer);
