@@ -4,7 +4,7 @@ Use `yarn start` to start application.
 Open browser and go to `http://localhost:8080`.
 Enjoy.
 
-Try do live version at: (http://language.codeaholicguy.com)[http://language.codeaholicguy.com]
+Try do live version at: http://language.codeaholicguy.com
 
 Screenshots:
 
