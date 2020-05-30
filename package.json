@@ -7,7 +7,8 @@
     "start": "webpack-dev-server --progress --colors --hot --config ./webpack.config.js",
     "build": "webpack --progress --colors --config ./webpack.config.prod.js",
     "lint-eslint": "./node_modules/.bin/eslint *.js --fix",
-    "lint-staged": "lint-staged"
+    "lint-staged": "lint-staged",
+    "deploy": "npm run build && cp CNAME public/CNAME && gh-pages -d public"
   },
   "lint-staged": {
     "*.js": "lint-eslint"
@@ -50,6 +51,7 @@
     "eslint-plugin-react": "^7.4.0",
     "eslint-plugin-standard": "^3.0.1",
     "file-loader": "^1.1.4",
+    "gh-pages": "^3.0.0",
     "html-webpack-plugin": "^2.25.0",
     "husky": "^0.14.3",
     "json-loader": "^0.5.4",
