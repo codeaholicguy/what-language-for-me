@@ -36,7 +36,7 @@ class Footer extends Component {
     return (
       <div style={style.footer}>
         Made with <span style={style.heart}>♥</span> by
-        <a style={style.link} href="https://codeaholicguy.com">
+        <a style={style.link} href="https://www.youtube.com/c/codeaholicguy?sub_confirmation=1">
           Codeaholicguy
         </a>
       </div>
