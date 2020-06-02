@@ -51,6 +51,10 @@ const styles = {
     fontWeight: 100,
     marginLeft: 20,
     marginRight: 20
+  },
+  fbLike: {
+    display: 'flex',
+    justifyContent: 'center'
   }
 }
 
@@ -74,6 +78,9 @@ export default class Home extends Component {
             labelStyle={styles.beginLabel}
             onTouchTap={::this._handleClicked} // eslint-disable-line
           />
+        </div>
+        <div style={styles.fbLike}>
+          <div className="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-width="" data-layout="standard" data-action="like" data-size="large" data-share="true"></div>
         </div>
       </div>
     )
