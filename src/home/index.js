@@ -80,7 +80,7 @@ export default class Home extends Component {
           />
         </div>
         <div style={styles.fbLike}>
-          <div className="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-width="" data-layout="standard" data-action="like" data-size="large" data-share="true"></div>
+          <div className="fb-like" data-href="https://language.codeaholicguy.com" data-width="" data-layout="standard" data-action="like" data-size="large" data-share="true"></div>
         </div>
       </div>
     )
