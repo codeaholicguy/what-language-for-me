@@ -8,7 +8,7 @@
     "build": "webpack --progress --colors --config ./webpack.config.prod.js",
     "lint-eslint": "./node_modules/.bin/eslint *.js --fix",
     "lint-staged": "lint-staged",
-    "deploy": "npm run build && cp CNAME build/CNAME && cp src/core/images/background.jpg build/background.jpg && gh-pages -d build"
+    "deploy": "npm run build && cp CNAME build/CNAME && cp src/core/images/background.png build/background.png && gh-pages -d build"
   },
   "lint-staged": {
     "*.js": "lint-eslint"

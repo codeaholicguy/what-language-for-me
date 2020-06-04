@@ -22,7 +22,7 @@ const styles = {
     zIndex: 0,
     opacity: 0.4,
     filter: 'blur(5px)',
-    backgroundImage: `url(${require('../core/images/background.jpg')})`, // eslint-disable-line
+    backgroundImage: `url(${require('../core/images/background.png')})`, // eslint-disable-line
     backgroundSize: 'cover'
   },
   headerWrapper: {
