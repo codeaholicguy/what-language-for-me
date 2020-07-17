@@ -20,7 +20,7 @@
   "author": "codeaholicguy",
   "license": "MIT",
   "dependencies": {
-    "lodash": "4.17.4",
+    "lodash": "4.17.19",
     "material-ui": "0.16.6",
     "prop-types": "15.6.0",
     "radium": "0.18.1",
