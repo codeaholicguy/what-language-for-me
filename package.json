@@ -52,7 +52,7 @@
     "eslint-plugin-standard": "3.0.1",
     "file-loader": "1.1.4",
     "gh-pages": "3.0.0",
-    "html-webpack-plugin": "2.25.0",
+    "html-webpack-plugin": "5.5.0",
     "husky": "0.14.3",
     "json-loader": "0.5.4",
     "jsx-ast-utils": "2.0.1",
